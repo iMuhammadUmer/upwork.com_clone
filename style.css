@@ -7,6 +7,7 @@
 :root {
   --green: #37a000;
   --silver: #f9f9f9;
+  --grey: #222222;
 }
 header {
   height: 70px;
@@ -19,7 +20,7 @@ header {
   background-color: white;
 }
 header .content {
-  width: 80%;
+  width: 85%;
   height: inherit;
   display: flex;
   justify-content: space-between;
@@ -91,4 +92,24 @@ button {
   background-color: var(--silver);
   position: absolute;
   margin-top: 4.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category ul {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+.category li {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 12px;
+  font-weight: 400;
+  color: var(--grey);
+  text-transform: capitalize;
+}
+.category li a {
+  font-size: inherit;
+  color: inherit;
 }
