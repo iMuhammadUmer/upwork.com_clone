@@ -113,3 +113,12 @@ button {
   font-size: inherit;
   color: inherit;
 }
+main {
+  height: 450px;
+  width: 100%;
+  position: absolute;
+  background: url(images/xl.a3b65c62e4d6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 5em;
+}
