@@ -8,7 +8,9 @@
   --green: #37a000;
   --silver: #f9f9f9;
   --grey: #222222;
+  --lightGreen: #6fda44;
 }
+
 header {
   height: 70px;
   width: 100%;
@@ -65,7 +67,6 @@ input::placeholder {
   letter-spacing: 1.5px;
 }
 button {
-  background-color: var(--green);
   font-size: 13px;
   line-height: 13px;
   font-weight: 600;
@@ -80,6 +81,7 @@ button {
 #btnSignUp {
   width: 94px;
   height: 30px;
+  background-color: var(--green);
   transition: all 0.3s;
 }
 #btnSignUp:hover {
@@ -116,9 +118,49 @@ button {
 main {
   height: 450px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   background: url(images/xl.a3b65c62e4d6.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-position: 50%;
   background-repeat: no-repeat;
   margin-top: 5em;
+}
+main .content {
+  width: 85%;
+  height: 340px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main h1 {
+  width: 40%;
+  font-size: 52px;
+  line-height: 52px;
+  font-weight: 700;
+  color: var(--lightGreen);
+}
+#white {
+  color: white;
+}
+main p {
+  width: 40%;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: white;
+}
+#btnGetStarted {
+  width: 150px;
+  height: 40px;
+  background-color: var(--green);
+  color: white;
+}
+#btnWatchDemo {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  color: var(--green);
 }
