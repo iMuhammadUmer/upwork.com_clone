@@ -175,9 +175,8 @@ section {
   width: 85%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-direction: column;
-  /* background-color: var(--grey); */
+  background-color: var(--grey);
 }
 .talent .talentRow {
   width: 100%;
@@ -188,9 +187,16 @@ section {
 }
 .talentRow .talentCol {
   height: 190px;
-  width: 282px;
+  width: 260px;
   box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.talentCol img {
+  width: 260px;
 }
 .talentCol .content {
   width: 282px;
