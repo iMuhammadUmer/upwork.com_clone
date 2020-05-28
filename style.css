@@ -171,22 +171,25 @@ section {
   flex-direction: column;
 }
 .talent {
-  height: 520px;
-  width: 85%;
+  height: 580px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   color: var(--grey);
+  background-color: var(--silver);
 }
 .talent a {
   color: var(--grey);
 }
 .talent .talentRow {
-  width: 100%;
+  width: 85%;
   height: 190px;
   display: flex;
   justify-content: space-between;
   background-color: white;
+  margin: 2em 0 2em 0;
 }
 .talentRow .talentCol {
   height: 190px;
@@ -214,4 +217,13 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.business .content {
+  width: 85%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
 }
