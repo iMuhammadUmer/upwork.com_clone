@@ -238,7 +238,6 @@ section {
 .scope .content {
   height: 190px;
   width: 85%;
-  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -246,5 +245,31 @@ section {
 .scope .scopeRow {
   height: 190px;
   width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: 1px solid #e0e0e0;
+  background-color: white;
+}
+.scope .scopeCol {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: var(--grey);
+}
+.scope .hr {
+  height: 8px;
+  width: 35px;
+  background-color: var(--green);
+}
+.scope p {
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.scope .verHr {
+  height: 150px;
+  border-right: 1px solid #e0e0e0;
 }
