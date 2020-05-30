@@ -10,7 +10,6 @@
   --grey: #222222;
   --lightGreen: #6fda44;
 }
-
 header {
   height: 70px;
   width: 100%;
@@ -272,4 +271,8 @@ section {
 .scope .verHr {
   height: 150px;
   border-right: 1px solid #e0e0e0;
+}
+.howItWorks {
+  height: 460px;
+  width: 100%;
 }
