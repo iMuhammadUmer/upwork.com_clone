@@ -310,3 +310,18 @@ section {
   line-height: 21px;
   font-weight: 400;
 }
+.offerings {
+  height: 845px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--silver);
+  color: var(--grey);
+}
+.offerings h1 {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+}
