@@ -275,4 +275,38 @@ section {
 .howItWorks {
   height: 460px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--grey);
+}
+.howItWorks h1 {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+}
+.howItWorks .howItWorksRow {
+  width: 85%;
+  height: 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+.howItWorks .howItWorksCol {
+  height: 230px;
+  width: 262px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.howItWorksCol p {
+  width: 260;
+  height: 84px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
 }
