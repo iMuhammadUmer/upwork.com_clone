@@ -386,3 +386,7 @@ section {
   text-align: left;
   margin: 0;
 }
+.ratings {
+  height: 130px;
+  width: 100%;
+}
