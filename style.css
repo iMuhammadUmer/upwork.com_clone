@@ -388,5 +388,18 @@ section {
 }
 .ratings {
   height: 130px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ratings a {
   width: 100%;
+  color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#grey {
+  color: var(--lightGrey);
 }
