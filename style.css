@@ -9,6 +9,7 @@
   --silver: #f9f9f9;
   --grey: #222222;
   --lightGreen: #6fda44;
+  --lightGrey: #656565;
 }
 header {
   height: 70px;
@@ -76,16 +77,16 @@ button {
   border: none;
   border-radius: 2px;
   box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+  background-color: var(--green);
+  transition: all 0.3s;
+}
+button:hover {
+  box-shadow: 0 2px 10px 1px rgba(57, 73, 76, 0.4),
+    0 1px 2px rgba(57, 73, 76, 0.25);
 }
 #btnSignUp {
   width: 94px;
   height: 30px;
-  background-color: var(--green);
-  transition: all 0.3s;
-}
-#btnSignUp:hover {
-  box-shadow: 0 2px 10px 1px rgba(57, 73, 76, 0.4),
-    0 1px 2px rgba(57, 73, 76, 0.25);
 }
 .category {
   width: 100%;
@@ -324,4 +325,64 @@ section {
   font-size: 35px;
   line-height: 43px;
   font-weight: 700;
+}
+.offerings p {
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 2em 0 2em 0;
+  color: var(--lightGrey);
+}
+.offerings .offeringsRow {
+  height: 520px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offeringsRow .offeringsCol {
+  height: inherit;
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+}
+.offeringsCol .cat {
+  height: 194px;
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+#btnCat {
+  width: 150px;
+  height: 40px;
+}
+.offeringsCol .description {
+  width: inherit;
+  height: 325px;
+}
+.offeringsCol .description p {
+  width: 200px;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 1.5em 1.5em 0 1.5em;
+  color: var(--grey);
+}
+.offeringsCol .description a {
+  font-size: inherit;
+  color: var(--green);
+  margin: 0;
+}
+.offerings .notice {
+  height: 40px;
+  width: 90%;
+  margin-top: 3em;
+}
+.offerings .notice p {
+  text-align: left;
+  margin: 0;
 }
