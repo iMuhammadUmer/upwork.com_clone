@@ -403,3 +403,8 @@ section {
 #grey {
   color: var(--lightGrey);
 }
+.message {
+  height: 500px;
+  width: 100%;
+  background-color: var(--lightGrey);
+}
