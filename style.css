@@ -448,3 +448,15 @@ section {
   width: 550px;
   height: 310px;
 }
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--silver);
+}
+.skills .skillsRow {
+  width: 85%;
+  height: 280px;
+  margin: 2em;
+  background-color: var(--grey);
+}
