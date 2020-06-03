@@ -407,4 +407,44 @@ section {
   height: 500px;
   width: 100%;
   background-color: var(--lightGrey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message .content {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.message .col {
+  height: 220px;
+  width: 490px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.message img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+#italic {
+  font-style: italic;
+}
+.message h1 {
+  font-size: 40px;
+  line-height: 43px;
+  font-weight: 700;
+  color: white;
+}
+.message p {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #a0a0a0;
+}
+.message iframe {
+  width: 550px;
+  height: 310px;
 }
