@@ -10,6 +10,7 @@
   --grey: #222222;
   --lightGreen: #6fda44;
   --lightGrey: #656565;
+  --grassGreen: #008329;
 }
 header {
   height: 70px;
@@ -451,12 +452,46 @@ section {
 .skills {
   width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: var(--silver);
+  color: var(--grey);
 }
-.skills .skillsRow {
+.skills .content {
   width: 85%;
   height: 280px;
-  margin: 2em;
-  background-color: var(--grey);
+  margin: 2em 0 2em 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.skills .content .skillsRow {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.skillsRow .skillsCol {
+  width: 270px;
+  height: 100%;
+}
+.skillsCol ul {
+  height: inherit;
+}
+.skillsCol li {
+  list-style: none;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--grey);
+  margin-top: 0.5em;
+  letter-spacing: 0.5px;
+}
+.skillsCol a {
+  font-size: inherit;
+  color: inherit;
+}
+.skillsCol a:hover {
+  color: var(--grassGreen);
+  text-decoration: underline;
 }
