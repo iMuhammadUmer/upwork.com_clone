@@ -11,6 +11,7 @@
   --lightGreen: #6fda44;
   --lightGrey: #656565;
   --grassGreen: #008329;
+  --blue: #1d4354;
 }
 header {
   height: 70px;
@@ -559,4 +560,9 @@ section {
 #btnDemo {
   width: 180px;
   height: 40px;
+}
+footer {
+  height: 540px;
+  width: 100%;
+  background-color: var(--blue);
 }
