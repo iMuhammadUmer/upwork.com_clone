@@ -597,7 +597,27 @@ footer .payroll {
   text-decoration: underline;
 }
 footer .content .linksRow {
-  width: 100%;
+  width: 80%;
   height: 300px;
-  background-color: var(--green);
+  display: flex;
+  justify-content: space-between;
+}
+.linksRow li {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 0.3em;
+}
+#heading {
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 1em;
+}
+.linksRow li a {
+  color: inherit;
+}
+.linksRow li a:hover {
+  text-decoration: underline;
 }
