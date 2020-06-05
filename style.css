@@ -12,6 +12,7 @@
   --lightGrey: #656565;
   --grassGreen: #008329;
   --blue: #1d4354;
+  --white: #e0e0e0;
 }
 header {
   height: 70px;
@@ -564,5 +565,33 @@ section {
 footer {
   height: 540px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--blue);
+}
+footer .content {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .payroll {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #2b5468;
+}
+.payroll p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--white);
+}
+.payroll p a {
+  color: inherit;
+  text-decoration: underline;
 }
