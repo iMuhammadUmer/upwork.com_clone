@@ -464,12 +464,15 @@ section {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  /* background-color: var(--green); */
 }
 .skills .content .skillsRow {
   width: 100%;
-  height: 230px;
+  height: 250px;
   display: flex;
   justify-content: space-between;
+  margin-top: 1em;
+  /* background-color: var(--lightGreen); */
 }
 .skillsRow .skillsCol {
   width: 270px;
@@ -494,4 +497,66 @@ section {
 .skillsCol a:hover {
   color: var(--grassGreen);
   text-decoration: underline;
+}
+.skills .content .btnRow {
+  width: 100%;
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+}
+#btnBrowseAllSkills {
+  width: 180px;
+  height: 40px;
+  background-color: white;
+  color: var(--green);
+  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+  transition: 0.3s;
+}
+#btnBrowseAllSkills:hover {
+  box-shadow: 0px 0px 10px 5px rgba(57, 73, 76, 0.35);
+}
+#skillsRow2 {
+  height: 150px;
+}
+#content2 {
+  height: 180px;
+  margin-top: 2em;
+}
+.skills .enterprise {
+  width: 85%;
+  height: 130px;
+  margin: 4em 0 1.5em 0;
+  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enterprise .enterpriseRow {
+  height: 70px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.enterpriseRow .col {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.col p {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 600;
+  color: var(--grassGreen);
+}
+.col h1 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  color: var(--grey);
+}
+#btnDemo {
+  width: 180px;
+  height: 40px;
 }
